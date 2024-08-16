@@ -1,16 +1,41 @@
-# bookly
+# Bookly App
 
-A new Flutter project.
+## Overview
+Bookly is an app that provides access to a wide range of books for reading or downloading, with search capabilities by category.
 
-## Getting Started
+## Features
+- Search books by category
+- Download and read books
+- Clean and responsive UI design
+- Implementation of Clean Architecture
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- **Flutter**: For building the cross-platform app.
+- **Dio**: For API communication.
+- **Cubit**: For state management.
+- **Get_it**, **Dartz**, **Equatable**: For dependency injection and functional programming.
+- **Google Books API**: For fetching book data.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+1. Clone the repository: 
+    ```
+    git clone https://github.com/SamirYousri/Bookly_New.git
+    ```
+2. Navigate to the project directory:
+    ```
+    cd Bookly_New
+    ```
+3. Install dependencies:
+    ```
+    flutter pub get
+    ```
+4. Run the app:
+    ```
+    flutter run
+    ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
+(Add screenshots of your app here)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
